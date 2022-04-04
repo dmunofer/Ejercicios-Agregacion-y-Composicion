@@ -16,9 +16,19 @@ class Empleado(Empresa):
         self.empleado = empleado
 
 
-
+'''
 YooHoo = Empresa('YooHoo!')
 New_York = Ciudad('New York')
+Los_Angeles = Ciudad('Los Angeles')
+A = Edificio('A')
+B = Edificio('B')
+C = Edificio('C')
+Sres_Martin = Empleado('Sres. Martin')
+Salim = Empleado('Salim')
+Sra_Xing = Empleado('Sra Xing')
+'''
+
+YooHoo = Empresa('YooHoo!')
 Los_Angeles = Ciudad('Los Angeles')
 A = Edificio('A')
 B = Edificio('B')
