@@ -6,6 +6,8 @@ class Ciudad(Empresa):
 
     def __init__(self, ciudad):
         self.ciudad = ciudad
+    def __del__(self):
+        print('Catástrofe en New York')
 
 class Edificio(Ciudad):
     def __init__(self, edificio):
