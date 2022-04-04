@@ -1,4 +1,5 @@
 orientaciones = ["NORTE","SUR", "ESTE","OESTE"]
+superficies = [0.5, 1, 1.5, 2, 2.5]
 
 class Pared():
     def __init__(self,orientacion):
@@ -17,9 +18,9 @@ class Cristal(Pared):
 
 class Ventana(Cristal):
     def __init__(self,num):
-        self.ventana= (Pared(),num)
+        self.ventana= (Pared(orientaciones),num)
 
-class Casa(Pared(),Ventana()):
+class Casa(Cristal):
     def __init__(self,pared,ventana):
         self.pared = pared
         self.ventana = ventana
